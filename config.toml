@@ -13,6 +13,6 @@ generate_tags_pages = true
 [extra]
 # Put all your custom variables here
 even_menu = [
-    { url = "$BASE_URL", name = "Home" }
+    { url = "/about", name = "About" }
 ]
 even_title = "Kori"
