@@ -1,15 +1,18 @@
 # The URL the site will be built for
 base_url = "https://stuff.kori.wtf"
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Gutenberg
+theme = "even"
 highlight_code = false
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
+
+title = "Kori"
+description = ""
+generate_categories_pages = true
+generate_tags_pages = true
 
 [extra]
 # Put all your custom variables here
+even_menu = [
+    { url = "$BASE_URL", name = "Home" }
+]
+even_title = "Kori"
