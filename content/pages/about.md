@@ -4,4 +4,5 @@ path = "about"
 template = "about.html"
 +++
 
-This is me!
+# hi i'm Kori
+I love to experiment with creative hobbies, and have a passion for writing
